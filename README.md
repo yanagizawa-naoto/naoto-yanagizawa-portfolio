@@ -13,6 +13,7 @@
   ※ 補足: 画像分類（CNN）、物体検出（YOLO系）、位置推定/ジオロカリゼーションの経験あり
 - **LLM/生成AI**: RAG, プロンプトエンジニアリング, Stable Diffusion  
   ※ 補足: OSS LLMの内部解析・純PyTorch実装、軽量モデルのiOSデバイス上での動作実績あり
+- **社内webアプリ開発**: flask, python, js, html
 
 ### ツール・環境
 - **開発環境**: Google Colab, AWS EC2, 東工大TSUBAME, Lambda Labs GPU環境

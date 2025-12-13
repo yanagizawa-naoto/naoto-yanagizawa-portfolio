@@ -155,7 +155,8 @@ SQ-VAE で得た離散潜在表現を用いるため、
 **D3PM（Discrete Denoising Diffusion Probabilistic Models）論文** を読み込み、潜在空間で動作する **離散拡散モデル（D3PM）を実装**。
 
 - 潜在空間での拡散プロセスを構築し、高品質な画像生成を実現
-- **https://github.com/yanagizawa-naoto/ffhq_sq_vae_latent_1024-d3pm/blob/main/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-12-13%2018.46.44.png** のように、**高品質な顔画像生成モデル** を完成
+- **https://github.com/yanagizawa-naoto/ffhq_sq_vae_latent_1024-d3pm/blob/main/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-12-13%2018.46.44.png** のように、**高品質な顔画像生成モデル** を完成(学習結果が操作ミスで失われたため学習途中のものを載せいています)
+  
 
 ---
 

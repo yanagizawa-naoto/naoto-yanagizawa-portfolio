@@ -156,9 +156,11 @@ SQ-VAE で得た離散潜在表現を用いるため、
 
 - 潜在空間での拡散プロセスを構築し、高品質な画像生成を実現
 - **https://github.com/yanagizawa-naoto/ffhq_sq_vae_latent_1024-d3pm/blob/main/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-12-13%2018.46.44.png** のように、**高品質な顔画像生成モデル** を完成(学習結果が操作ミスで失われたため学習途中のものを載せいています)
-  
+- sq_vaeおよびd3pmの実装はこちらに載せています。
+- **https://github.com/yanagizawa-naoto/ffhq_sq_vae_latent_1024-d3pm/blob/main/README.md**  
 
----
+
+ーー--
 
 ## 📚 学習と挑戦
 - 「パターン認識と機械学習」上巻を完読(演習問題含む)、下巻は6章まで読破

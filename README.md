@@ -48,12 +48,14 @@
 
 ### TranslaChat — 多言語リアルタイム翻訳チャット
 韓国のハッカソンを起点に、大学・イベント向け SaaS として事業化を検討し継続開発中。
+- 🌐 **ライブ LP**（動画デモ付き）: https://gentlly.com/translachat/lp/
 - 対応10言語（ja/ko/en/zh/es/fr/de/pt/ru/ar）
 - Node.js (Express) + WebSocket、翻訳は GPT-5.2 / GPT-4.1-mini、DeepL フォールバック
 - **Stripe決済**、イベント単位課金、組織管理ダッシュボード、サブスクライバー管理
 - Whisper / Qwen3-ASR によるSTT連携、ライブプレゼンテーション用 STT ビューア
 
 ### meeting-assist — ビジネスミーティング向けリアルタイム翻訳・返信提案アシスタント
+- 🎬 **デモ動画**: https://x.com/Naoto_Diffusion/status/2043060302649135345
 - FastAPI + WebSocket / SSE でストリーミング応答
 - 音声認識：ElevenLabs Scribe v2 Realtime、またはローカル Qwen3-ASR に切替可能
 - LLM：OpenAI Chat API または **ローカル Gemma4** に切替可能（オンプレ／プライバシー配慮構成に対応）
@@ -221,12 +223,14 @@ ML ベースの画像圧縮モデル（JPEG の代替）を GPU + CPU 両面で�
 
 ### 15. iOS 高速カメラ + LiDAR + Metal 点群可視化アプリ
 iPhone 12 Pro 以降の **LiDAR センサー** を用いた点群リアルタイム可視化アプリ。
+- 🎬 **デモ動画**: https://x.com/Naoto_Diffusion/status/1993222271641829637
 - AVFoundation（高速カメラ）＋ LiDARDepthManager（深度）＋ Core Motion（姿勢）のセンサ融合
 - **Metal GPU シェーダ**による点群描画パイプライン
 - セッション録画、モーショントラッキング
 
 ### 16. iOS オンデバイス画像生成アプリ（Core ML）
 PyTorch 拡散モデル（DiT + DPM-Solver++）を **Core ML に変換**し、iOS App として実装。
+- 🎬 **デモ動画**: https://x.com/Naoto_Diffusion/status/2017918416779358344
 - 最適化後モデルサイズ ~257 MB、INT4 / FP16 の量子化で推論最適化
 - VQ-VAE の 6bit / FP16 量子化版も別アプリとして実装
 - Float16 / Float32 の精度不一致対応、Swift 初期化順序バグ修正等の実装ノートを蓄積
@@ -308,3 +312,4 @@ ML モデル開発だけでなく、GPU の選定・電源設計・冷却・運�
 ## 📫 連絡先
 - Email: naoto7010.sci@gmail.com
 - GitHub: [@yanagizawa-naoto](https://github.com/yanagizawa-naoto)
+- X: [@Naoto_Diffusion](https://x.com/Naoto_Diffusion)

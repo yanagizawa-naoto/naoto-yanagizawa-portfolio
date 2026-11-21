@@ -7,6 +7,9 @@
 主な領域は、画像生成・画像認識モデルの研究開発、
 LLM・エージェントの活用、業務アプリの開発・運用です。
 
+法人での開発のご相談は、[株式会社Diffusion Logic](https://diffusionlogic.com/)として承っています。
+私が技術面を統括し、案件の内容・規模に応じて、メンバーの採用を含めた開発体制を検討します。
+
 ## 👨‍🎓 プロフィール
 - **出身**: 北海道小樽潮陵高校
 - **学歴**: 一浪して東京工業大学理学院化学系に入学
@@ -135,7 +138,7 @@ LLM・エージェントの活用、業務アプリの開発・運用です。
 - **AWS**（EC2 / ECS / Lambda / DynamoDB / S3 / EFS）
 - GCP、Google Colab、Lambda labs
 - GPU環境（**H100 / A6000 / RTX PRO 6000**）
-- **東工大 TSUBAME** スーパーコンピュータ
+- **TSUBAME** スーパーコンピュータ（NVIDIA H100×4構成での学習経験）
 - **Terraform**（IaC）、Docker、Cloudflare Tunnel
 
 ### MLOps / 最適化
@@ -177,7 +180,8 @@ LLM・エージェントの活用、業務アプリの開発・運用です。
 - 気象データのベクトル場生成モデル
 - 時間発展を考慮した動画生成モデル（VAE + Attention + Transformer）
 - 512×512×3 の画像を潜在空間（64×64×4 や 32×32×4）に射影する VAE を学習させ、潜在空間での拡散モデルを構築
-- **使用計算環境**: 東工大 TSUBAME（H100 1/2台相当の無料枠）、Lambda Labs の H100 GPU（自費レンタル）
+- **医療データを用いた拡散モデルの学習**: TSUBAMEのNVIDIA H100×4構成で実施。
+- **使用計算環境**: TSUBAME（NVIDIA H100×4構成、H100 1/2台相当の無料枠）、Lambda Labs の H100 GPU（自費レンタル）
 
 ### 2. インテリジェント中割フレーム生成 Web アプリ
 GitHub の中割生成 OSS を非エンジニアでも使える Web アプリに改良。
@@ -275,7 +279,7 @@ PyTorch 拡散モデル（DiT + DPM-Solver++）を **Core ML に変換**し、iO
 ## 🌐 インフラストラクチャ経験
 - **クラウド**: AWS EC2 / ECS / Lambda / DynamoDB / S3 / EFS を用いた常時稼働システム・サーバーレス認証バックエンドの構築
 - **IaC / CI/CD**: Terraform + GitHub Actions によるインフラコード化、ステージング／本番環境のデプロイパイプライン構築
-- **高性能計算**: 東工大 TSUBAME スパコン（H100）を活用した大規模モデル学習
+- **高性能計算**: TSUBAMEのNVIDIA H100×4構成で、医療データを用いた拡散モデルを学習
 - **GPU 環境**: Lambda Labs H100 / A6000、RTX PRO 6000 を用いた深層学習・推論
 - **エッジ**: Core ML / iOS 上でのオンデバイス推論、Metal GPU シェーダによる描画
 - **ハードウェア**: ローカルLLM推論サーバーの構成設計・電源・冷却・UPS 要件整理（RTX PRO 6000 導入支援）
@@ -299,7 +303,7 @@ PyTorch 拡散モデル（DiT + DPM-Solver++）を **Core ML に変換**し、iO
 - **フィジカルAI / Embodied AI**: Vision-Language-Action（VLA）、ロボティクス、センサ融合分野への展開
 - **Edge / On-device ML**: iOS Core ML、Metal、量子化済みモデルでの高速推論
 - **オンプレ LLM 基盤**: RTX PRO 6000 等を用いたローカル推論基盤の構築・運用、プライバシー配慮型AIシステム
-- **複数GPU分散処理**: 大規模モデルの効率的な学習手法の習得
+- **複数GPU学習の効率化**: H100×4構成での学習経験を踏まえ、学習速度やGPUメモリ効率のさらなる改善に取り組む
 - **Software × Hardware の架け橋**: GPU 構成設計からソフトウェア実装、エッジ展開まで一貫して担えるエンジニアへ
 
 ### 応用領域
@@ -343,6 +347,7 @@ ML モデル開発だけでなく、GPU の選定・電源設計・冷却・運�
 - **自己成長**: 経済的に自立しながら学業と技術習得を両立する経験から、効率的な学習方法と時間管理を常に模索しています。この経験は、限られたリソースで最大の効果を得るという技術的アプローチにも通じていると考えています。
 
 ## 📫 連絡先
-- Email: naoto7010.sci@gmail.com
+- 法人での開発・協業のご相談: naoto@diffusionlogic.com
+- 個人の連絡先: naoto7010.sci@gmail.com
 - GitHub: [@yanagizawa-naoto](https://github.com/yanagizawa-naoto)
 - X: [@Naoto_Diffusion](https://x.com/Naoto_Diffusion)
